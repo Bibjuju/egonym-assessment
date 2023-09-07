@@ -6,6 +6,7 @@ from flask_cors import CORS, cross_origin
 import numpy as np
 import base64
 import json
+import torch
 
 
 
@@ -56,6 +57,8 @@ if __name__ == '__main__':
         print('Loading YOLO model...')
         #Load model once on app launch for future use.
         current_app.model = YOLO("yolov8n.pt")
+        if torch.cuda.is_available():
+            current_app.model.to('cuda')
     app.run(host='0.0.0.0')
 
 
