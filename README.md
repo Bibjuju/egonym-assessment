@@ -13,3 +13,10 @@ instruction how to run your code
   - npm start
 
 
+### Demo video.
+
+
+https://github.com/Bibjuju/egonym-assessment/assets/33256010/4a50996b-dbf7-4c6b-88a9-7feaa43bf187
+
+
+
