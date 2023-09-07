@@ -11,6 +11,27 @@ instruction how to run your code
 - from react-web-ui directory (./react-web-ui) run the following commands:
   - npm install
   - npm start
+ 
+### Rest API
+Endpoint: `/predict`
+Method: POST
+Headers: 
+- `Content-Type: application/json`
+
+Request Body:
+```json
+{
+  "image": "<base64_encoded_image>"
+}
+```
+
+Response Body:
+```json
+{
+  "image": "<base64_encoded_image>",
+  "raw_result": "<prediction_result>"
+}
+```
 
 
 ### Demo video.
