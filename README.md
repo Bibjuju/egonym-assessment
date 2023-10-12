@@ -1,6 +1,4 @@
-# egonym-assessment
-
-instruction how to run your code
+# WebUI supported image annotation
 
 ### Terminal 1 : run server on docker.
 - from root directory (./) run the following commands:
