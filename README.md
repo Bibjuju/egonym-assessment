@@ -2,8 +2,8 @@
 
 ### Terminal 1 : run server on docker.
 - from root directory (./) run the following commands:
-  - run docker build -t assessment .
-  - docker run -p 5000:5000 assessment
+  - run docker build -t annotator .
+  - docker run -p 5000:5000 annotator
  
 ### Terminal 2 : run react web ui.
 - from react-web-ui directory (./react-web-ui) run the following commands:
